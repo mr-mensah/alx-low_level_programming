@@ -18,7 +18,7 @@ printf("%lu", before);
 for (i = 1; i < 91; i++)
 {
 printf(", %lu", after);
-aft += before;
+after += before;
 before = after - before;
 }
 before1 = (before / l);
