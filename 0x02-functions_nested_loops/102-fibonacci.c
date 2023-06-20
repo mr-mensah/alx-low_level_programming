@@ -7,13 +7,13 @@
 int main(void)
 {
 int count;
-unsigned long fibon1 = 0, fibon2 = 1, sum;
+unsigned long fibona = 0, fibon = 1, sum;
 for (count = 0; count < 50; count++)
 {
-sum = fibon1 + fibon2;
+sum = fibona + fibon;
 printf("%lu", sum);
-fibon1 = fibon2;
-fibon2 = sum;
+fibona = fibon;
+fibon = sum;
 if (count == 49)
 printf("\n");
 else
