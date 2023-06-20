@@ -20,7 +20,7 @@ _putchar(',');
 _putchar(' ');
 _putchar(' ');
 _putchar(e + '0');
-} 
+}
 else if (e >= 10)
 {
 _putchar(',');
