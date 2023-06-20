@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - fibonacci 
+ * main - fibonacci
  *
  * Return: 0 (Success)
  */
