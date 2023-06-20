@@ -14,7 +14,7 @@ unsigned long int before1;
 unsigned long int before2;
 unsigned long int after1;
 unsigned long int after2;
-printf("%lu", beofore);
+printf("%lu", before);
 for (i = 1; i < 91; i++)
 {
 printf(", %lu", after);
