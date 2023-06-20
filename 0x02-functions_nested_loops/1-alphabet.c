@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * main - first entry point
+ * alphabet - first entry point
  * Return: Alays 0(Success)
  */
-void main(void)
+void alphabet(void)
 {
 char alpha;
 for (alpha = 'a'; alpha <= 'z'; alpha++)
