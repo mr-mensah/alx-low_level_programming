@@ -1,6 +1,6 @@
 #include"main.h"
 /**
- * main - Check if the number is positive or negative or zero
+ * positive_or_negative - Check if the number is positive or negative or zero
  * @i: number to be checked
  * 0 : is the number to be checked
  * Return : 0 (Success)
