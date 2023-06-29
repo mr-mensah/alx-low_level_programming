@@ -3,7 +3,7 @@
  * _strcat - concatenates two signing
  * @dest: string
  * @src: string
- * Return: null
+ * Return: dest
  */
 char *_strcat(char *dest, char *src)
 {
