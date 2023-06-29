@@ -3,7 +3,7 @@
  * _strcat - concatenates two signing
  * @dest: string
  * @src: string
- * Return: void
+ * Return: null
  */
 char *_strcat(char *dest, char *src)
 {
@@ -22,5 +22,5 @@ i++;
 j++;
 }
 dest[i] = '\0';
-return (0);
+return (dest);
 }
