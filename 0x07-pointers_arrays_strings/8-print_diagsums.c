@@ -6,19 +6,16 @@
  */
 void print_diagsums(int *a, int size)
 {
-int i;
-int j = 0;
-int k = 0;
+int sum1, sum2, i;
+sum1 = 0;
+sum2 = 0;
 for (i = 0; i < size; i++)
 {
-j += a[i];
-a += size;
+sum1 = sum1 + a[i * size + i];
 }
-a += size;
-for (i = 0; i < size; i++)
+for (i = size - 1; i >= 0; i--)
 {
-k += a[i];
-a += size;
+sum2 += a[i * size + (size - i - 1)];
 }
-printf("%d, %d\n", j, k);
+printf("%d, %d\n", sum1, sum2);
 }
