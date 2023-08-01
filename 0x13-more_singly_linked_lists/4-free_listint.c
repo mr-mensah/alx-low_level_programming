@@ -9,7 +9,7 @@ listint_t *fre;
 while (head)
 {
 fre = head->next;
-free(head);
+fre(head);
 head = fre;
 }
 }
